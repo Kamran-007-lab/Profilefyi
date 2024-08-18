@@ -20,7 +20,7 @@ const MobNavbar = () => {
           <div className="flex gap-4 text-[30px]">
             <AiOutlineUser />
             <Link to="/checkout">
-              <div className="relative cursor-pointer">
+              <div className="relative cursor-pointer transition-transform transform hover:scale-125 duration-300 ease-in-out shadow-2xl">
                 <AiOutlineShoppingCart />
                 <CartCount size="w-[20px] h-[20px]" />
               </div>

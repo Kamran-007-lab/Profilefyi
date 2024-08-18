@@ -28,7 +28,7 @@ const Navbar = () => {
               <AiOutlineUser />
             </div>
             <Link to="/checkout">
-              <div className="icon__wrapper relative">
+              <div className="icon__wrapper relative transition-transform transform hover:scale-125 duration-300 ease-in-out shadow-2xl">
                 <AiOutlineShoppingCart />
                 <CartCount size="w-[25px] h-[25px]" />
               </div>
