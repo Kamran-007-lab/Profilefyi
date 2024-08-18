@@ -48,7 +48,6 @@ function Card(props) {
         </div>
       </div>
 
-      {/* Pop-up message */}
       {showPopup && (
         <div className="z-20 fixed bottom-4 right-4 bg-slate-500 text-white py-2 px-4 rounded-lg shadow-lg transition-opacity duration-300 ease-in-out">
           <h1 className="text-xl">Product added to cart</h1>

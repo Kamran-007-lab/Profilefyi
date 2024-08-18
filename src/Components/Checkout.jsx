@@ -67,7 +67,7 @@ const Checkout = () => {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="w-full flex justify-center items-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                className="w-full flex justify-center items-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-slate-500 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-500"
               >
                 <FaLock className="mr-2" />
                 Checkout
@@ -77,7 +77,7 @@ const Checkout = () => {
               <p>
                 or{' '}
                 <Link to="/">
-                <button type="button" className="text-indigo-600 font-medium hover:text-indigo-500">
+                <button type="button" className="text-slate-400 font-medium hover:text-slate-600">
                   Continue Shopping<span aria-hidden="true"> &rarr;</span>
                 </button>
                 </Link>
