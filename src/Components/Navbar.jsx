@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="container hidden lg:block">
         <div className="flex justify-between items-center p-8">
           <Link to="/">
-            <h1 className="text-4xl font-medium">Profile.fyi</h1>
+            <h1 className="text-4xl font-medium transition-transform transform hover:scale-125 duration-300 ease-in-out shadow-2xl">Profile.fyi</h1>
           </Link>
           <div className="relative w-full max-w-[500px]">
             <input

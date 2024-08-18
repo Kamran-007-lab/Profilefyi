@@ -1,5 +1,5 @@
 import { BsSearch } from "react-icons/bs";
-import { IoIosMenu } from "react-icons/io";
+import { RiHome2Fill } from "react-icons/ri";
 
 import { AiOutlineShoppingCart, AiOutlineGlobal } from "react-icons/ai";
 import CartCount from "./CartCount.jsx";
@@ -16,11 +16,11 @@ const MobNavbar = () => {
     <div className="sticky top-0 bg-white z-10">
       <div className="container p-8 lg:hidden">
         <div className="flex justify-between items-center ">
-          <div className="flex items-center gap-6">
+          <div className="flex items-center gap-6 transition-transform transform hover:scale-125 duration-300 ease-in-out shadow-2xl">
             <Link to="/">
-              <IoIosMenu size={30} />
+              <RiHome2Fill size={30} />
             </Link>
-            <BsSearch size={24} />
+            {/* <BsSearch size={24} /> */}
           </div>
           <h1 className="text-4x1">Profile.fyi</h1>
           <div className="flex gap-4 text-[30px]">
