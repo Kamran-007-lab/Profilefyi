@@ -1,24 +1,9 @@
 import React, { useEffect, useState } from "react";
 import Card from "./Card";
+import { useLoaderData } from "react-router-dom";
 const Hero = () => {
-
-  const [data, setData] = useState([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    fetch("https://fakestoreapi.com/products")
-      .then((response) => response.json())
-      .then((data) => {
-        setData(data);
-        setLoading(false);
-      })
-      .catch((error) => {
-        console.error("Error fetching data:", error);
-        setLoading(false);
-      });
-  }, []);
-//   console.log(data);
-
+  const data=useLoaderData()
+  const [loading, setLoading] = useState(false);
 
   return (
     <>
@@ -40,3 +25,7 @@ const Hero = () => {
 };
 
 export default Hero;
+export const heroLoader = async () => {
+    const response = await fetch("https://fakestoreapi.com/products")
+    return response.json()
+}
