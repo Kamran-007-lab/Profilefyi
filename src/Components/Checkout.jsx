@@ -32,7 +32,7 @@ const Checkout = () => {
                   <div className="flex items-center space-x-2">
                     <button
                       onClick={() => item.quantity===1 ? removeItem(item.id) :updateItem(item.id, -1)}
-                      className="p-1 rounded-full text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                      className="p-1 rounded-full text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-400"
                       aria-label="Decrease quantity"
                     >
                       <FaMinus className="h-5 w-5" />
@@ -40,7 +40,7 @@ const Checkout = () => {
                     <span className="text-gray-900 font-medium">{item.quantity}</span>
                     <button
                       onClick={() => updateItem(item.id, 1)}
-                      className="p-1 rounded-full text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                      className="p-1 rounded-full text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-400"
                       aria-label="Increase quantity"
                     >
                       <FaPlus className="h-5 w-5" />
@@ -48,7 +48,7 @@ const Checkout = () => {
                   </div>
                   <button
                     onClick={() => removeItem(item.id)}
-                    className="ml-4 p-2 text-red-500 hover:text-red-700 focus:outline-none"
+                    className="ml-4 p-2 text-slate-500 hover:text-slate-700 focus:outline-none"
                     aria-label="Remove item"
                   >
                     <FaTrash className="h-5 w-5" />
