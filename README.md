@@ -6,7 +6,7 @@ This project is a simple e-commerce assignment given by Profile.fyi, it is built
 
 ## Features
 ### 1. Product Listing Page
-* Displays a few products fetched from an API using a grid layout.
+* Displays a few products fetched from an API(https://fakestoreapi.com/products) using a grid layout.
 * Each product card includes:
   -  Product image.
   - Product name.
