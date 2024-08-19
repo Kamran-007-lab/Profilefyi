@@ -5,19 +5,19 @@ This project is a simple e-commerce assignment given by Profile.fyi, it is built
 
 
 ## Features
-**1. Product Listing Page**
+### 1. Product Listing Page
 * Displays a few products fetched from an API using a grid layout.
 * Each product card includes:
   -  Product image.
   - Product name.
   - Product price (formatted for currency).
   - "Add to Cart" button.
-**2. Add to Cart Functionality**
+### 2. Add to Cart Functionality
 * Clicking the "Add to Cart" button on a product:
   - Adds the chosen product to a virtual shopping cart.
   - Updates the cart counter to reflect the number of added items.
   - Provide visual feedback confirming the item's addition.
-**3. Cart Page**
+### 3. Cart Page
 * Displays a dedicated cart page where users can manage their selected products.
 * The cart page includes:
   - A list of all added products, displaying:
